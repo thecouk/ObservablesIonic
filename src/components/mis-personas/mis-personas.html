@@ -1,0 +1,15 @@
+<button ion-button color="primary" small (click)="agregar()">Agregar</button>
+  <ion-list>
+    <ion-item *ngFor="let persona of personas | async">
+      {{persona.nombre}}
+      <button ion-button  color="danger"  *ngIf="persona.megusta==true" clear icon-only (click)="marcarMeGusta(persona,0)">
+        <ion-icon name="ios-heart" class="larger"></ion-icon>
+      </button>
+      <button ion-button  color="dark"  *ngIf="persona.megusta==false" clear icon-only (click)="marcarMeGusta(persona,1)">
+        <ion-icon name="ios-heart-outline" class="larger"></ion-icon>
+      </button>
+      <button ion-button  color="dark" clear icon-only (click)="eliminar(persona.id)">
+        <ion-icon name="ios-close-circle" class="larger"></ion-icon>
+      </button>
+    </ion-item>
+  </ion-list>
