@@ -61,6 +61,20 @@ Basicamente te habilita una API con todos los metodos GET,POST,PUT,DELETE para q
 
 Ahora ya tienes lo necesario para trabajar ya con el proyecto de Ionic. Desgargalo, todo el codigo lo comente por lo que seguro no te perderas.
 
+## Como funciona la App
+
+1. Pantalla Inicial abierta en dos browser:
+
+![Pantalla Inicial](https://github.com/thecouk/ObservablesIonic/blob/master/src/assets/img-ejemplos/listaPersonasInicial.png?raw=true)
+
+2. Pantallas al momento de agregar personas:
+
+![Pantalla Agregar Personas](https://github.com/thecouk/ObservablesIonic/blob/master/src/assets/img-ejemplos/listaPersonasAgregar.png?raw=true)
+
+3. Pantallas al momento de indicar Me Gusta:
+
+![Pantalla Me gusta Personas](https://github.com/thecouk/ObservablesIonic/blob/master/src/assets/img-ejemplos/listaPersonasMeGusta.png?raw=true)
+
 ### Agradecimientos:
 
 Este ejemplo es una adaptación del tutorial: 
