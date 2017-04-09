@@ -59,7 +59,7 @@ Basicamente te habilita una API con todos los metodos GET,POST,PUT,DELETE para q
 
 ## Listo
 
-Ahora ya tienes lo necesario para trabajar ya con el proyecto de Ionic. Desgargalo, todo el codigo lo comente por lo que seguro no te perderas.
+Ahora ya tienes lo necesario para trabajar ya con el proyecto de Ionic. Descargalo, todo el codigo lo comente por lo que seguro no te perderas.
 
 ## Como funciona la App
 
